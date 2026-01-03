@@ -1,0 +1,25 @@
+# ===============================
+# 8. STATISTICI DESCRIPTIVE
+# ===============================
+print("Număr observații:", df.shape[0])
+print("Număr tranzacții:", len(transactions))
+print("Număr alimente distincte:", df['food'].nunique())
+
+df['food'].value_counts().head(10)
+Număr observații: 212370
+Număr tranzacții: 6000
+Număr alimente distincte: 878
+	count
+food	
+Olive oil, virgin or extra-virgin	9698
+Coffee espresso (beverage), QUAL= Without added sugar	7250
+Sucrose (common sugar)	7242
+Natural mineral water	6458
+Onion bulbs for fresh consumption, PROCESS= Raw, no heat treatment	6159
+Dried durum pasta	5807
+Garlic, PROCESS= Raw, no heat treatment	5384
+Wheat bread and rolls, white (refined flour)	4360
+Cheese, parmigiano reggiano, PROCESS= Grating	4356
+Parsley	4349
+
+dtype: int64
