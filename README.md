@@ -1,8 +1,10 @@
 # Analiza regulilor de asociere pe date FAO GIFT
 
-Acest repository conține codul sursă utilizat pentru preprocesarea datelor
-și identificarea itemset-urilor frecvente folosind algoritmii FP-Growth
-și Apriori, aplicate pe seturi de date FAO privind consumul alimentar individual.
+Acest repository conține codul sursă utilizat pentru preprocesarea datelor,
+precum și fișierele rezultate în urma aplicării algoritmilor FP-Growth și
+Apriori pentru identificarea itemset-urilor frecvente, pe seturi de date FAO
+privind consumul alimentar individual.
+
 ## Date
 Seturile de date utilizate provin din platforma FAO GIFT:
 https://www.fao.org/gift-individual-food-consumption/data/en
